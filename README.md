@@ -8,6 +8,8 @@ SwipeAuth is a proof-of-concept authentication system that uses machine learning
 ![React Native](https://img.shields.io/badge/React_Native-0.74-61DAFB?logo=react)
 ![ML](https://img.shields.io/badge/ML-scikit--learn-F7931E?logo=scikit-learn)
 
+**🚀 [Try Live Demo](https://swipeauthdemo.vercel.app)** | **📖 [Read Blog Post](#)** | **⭐ Star This Repo**
+
 ---
 
 ## 📸 Demo
