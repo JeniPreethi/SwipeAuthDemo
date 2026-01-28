@@ -87,7 +87,9 @@ npm install
 
 3. **Install Python dependencies** (for ML training)
 ```bash
-pip install numpy scikit-learn pandas
+cd ml-training
+pip install -r requirements.txt
+cd ..
 ```
 
 4. **Start the app**
@@ -109,12 +111,19 @@ The app will open in your browser at `http://localhost:8081`
 5. Save the JSON file
 
 ### Step 2: Train Your ML Model
-1. Move the downloaded JSON file to the project root
-2. Run the training script:
+1. Move the downloaded JSON file to the `ml-training/` folder
+2. Navigate to ML training directory:
+```bash
+cd ml-training
+pip install -r requirements.txt
+```
+3. Run the training script:
 ```bash
 python train_simple_model.py
 ```
-3. Your model will be saved as `swipeauth_simple_model.pkl`
+4. Your model will be saved as `swipeauth_simple_model.pkl`
+
+**📚 [See full ML training guide →](ml-training/README.md)**
 
 ### Step 3: See It Work!
 1. The trained model thresholds are already integrated into `App.js`
