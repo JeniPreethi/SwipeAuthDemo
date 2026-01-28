@@ -10,6 +10,20 @@ SwipeAuth is a proof-of-concept authentication system that uses machine learning
 
 ---
 
+## 📸 Demo
+
+### ✅ Authentication Success
+When your swipe matches the trained model (within 0-1350 px/s range):
+
+![Authenticated Success](screenshots/authenticated-success.png)
+
+### 🚨 Access Denied
+When a bot or attacker swipes outside your learned pattern:
+
+![Access Denied](screenshots/access-denied.png)
+
+---
+
 ## 🎯 What It Does
 
 - **Collects swipe data**: Tracks velocity, distance, duration, and position of every swipe
